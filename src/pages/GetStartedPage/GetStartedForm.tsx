@@ -12,9 +12,7 @@ function GetStartedForm() {
         method="post"
         className=" w-full h-full flex flex-col gap-8 items-center justify-center "
       >
-        <h1 className="font-bold text-3xl ">
-          Let's Get You Started{" "}
-        </h1>
+        <h1 className="font-bold text-3xl ">Let's Get You Started </h1>
 
         <div className="flex justify-between w-full gap-6">
           <input
