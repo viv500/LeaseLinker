@@ -1,57 +1,58 @@
 import { Link } from "react-router-dom";
-import emailIcon from "../../assets/icons/email.png";
-import passwordIcon from "../../assets/icons/password.png";
+// import emailIcon from "../../assets/icons/email.png";
+// import passwordIcon from "../../assets/icons/password.png";
 import "./GettingStartedForm.css";
 
 function GetStartedForm() {
   return (
-    <div className="border-2 basis-96 grow">
+    <div className="basis-96 grow flex  items-center justify-center">
       <form
         name="login"
         action="mailto:khaleedopeloyeru20@gmail.con"
         method="post"
-        className="border lavender-bg"
+        className=" w-full h-full flex flex-col gap-8 items-center justify-center "
       >
-        <h2 className="purple-text">Sign Up</h2>
-        <div className="main-container">
-          <label htmlFor="email" className="container">
-            Email
-            <br />
-            <div className="input-container">
-              <input type="email" name="email" id="email" />
-              <img src={emailIcon} />
-            </div>
-          </label>
-        </div>
+        <h1 className="font-bold text-3xl ">
+          Let's Get You Started{" "}
+        </h1>
 
-        <div className="main-container">
-          <label htmlFor="password" className="container">
-            Password
-            <br />
-            <div className="input-container">
-              <input type="password" name="password" id="password" />
-              <img src={passwordIcon} />
-            </div>
-          </label>
+        <div className="flex justify-between w-full gap-6">
+          <input
+            type="text"
+            name="firstName"
+            id="email"
+            className=" bg-light-purple grow min-h-11 rounded-md outline-none border-none pl-10"
+            placeholder="First name"
+          />{" "}
+          <input
+            type="text"
+            name="lastName"
+            id="email"
+            className=" bg-light-purple grow min-h-11 rounded-md outline-none border-none pl-10"
+            placeholder="Last name"
+          />
         </div>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          className=" bg-light-purple w-full min-h-11 rounded-md outline-none border-none pl-10"
+          placeholder="Email Address"
+        />
 
-        <div className="remember-and-forgot">
-          <label htmlFor="remember-me">
-            <input
-              type="checkbox"
-              name="remember-me"
-              id="remember-me"
-              value="remember-me"
-            />
-            Remember Me
-          </label>
-          <a href="#">Forgot Password?</a>
-        </div>
-        <Link to="/selection" className="purple-text">login</Link>
-        {/* <input type="submit" value="Log in" className="login-button" /> */}
-        <p className="register-button">
-          Don't have an account? <a href="#">Register</a>
-        </p>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          className=" bg-light-purple w-full min-h-11 rounded-md outline-none border-none pl-10"
+          placeholder="Password"
+        />
+
+        <Link to="/selection" className="purple-text">
+          <button className="bg-first-green p-4 text-white font-bold">
+            Create Account
+          </button>
+        </Link>
       </form>
     </div>
   );

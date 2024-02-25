@@ -25,7 +25,6 @@ label {
   color: #4b0082; /* Purple label color */
 }
 
-input,
 select {
   width: 100%;
   padding: 1rem;

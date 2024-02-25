@@ -7,6 +7,7 @@ export default {
         "first-bg": "#000000",
         "first-white": "#ffffff",
         "first-green": "#646cff",
+        "light-purple": "#E8F0FE",
       },
     },
   },

@@ -7,10 +7,12 @@ function GetStartedPage() {
     <div className="relative flex min-h-lvh justify-center items-center flex-col">
       <GetStartedNavBar />
 
-      <div className=" justify-center items-center gap-10 max-w-7xl flex p-4 flex-wrap-reverse grow">
-        <GetStartedForm />
-        <div className="basis-96 grow ">
-          <img src={signUpImage} />
+      <div className=" justify-center items-center gap-10 max-w-7xl flex p-4 grow ">
+        <div className=" flex rounded-md flex-wrap-reverse  bg-white p-8">
+          <GetStartedForm />
+          <div className="basis-96 grow ">
+            <img src={signUpImage} />
+          </div>
         </div>
       </div>
     </div>
