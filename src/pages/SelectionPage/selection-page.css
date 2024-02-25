@@ -1,0 +1,49 @@
+/* selection-page.css */
+
+/* Background Gradient for Depth */
+body {
+  background: linear-gradient(to bottom, #e6e6fa 0%, #c0c0e0 100%);
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #e6e6fa; /* Light Lavender background color */
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: #4b0082; /* Purple label color */
+}
+
+input,
+select {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid #4b0082; /* Purple border color */
+  border-radius: 8px;
+  background-color: #fff; /* White background color */
+  color: #4b0082; /* Purple text color */
+  font-size: 1rem;
+}
+
+button {
+  background-color: #4b0082; /* Purple button background color */
+  color: #fff; /* White button text color */
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s; /* Add a transition for smooth color change and other properties */
+  font-size: 1.2rem;
+  font-weight: bold;
+}
