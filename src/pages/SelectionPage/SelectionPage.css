@@ -1,0 +1,59 @@
+/* SelectionPage.css */
+
+/* Background Gradient for Depth */
+body {
+  background: linear-gradient(to bottom, #e6e6fa 0%, #c0c0e0 100%);
+}
+
+/* Styling for the form container */
+.form-container {
+  max-width: 24rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: linear-gradient(to bottom, #bf9ddb, #8b05a2); /* Adjust gradient colors */
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border: 5px solid #4b0082; /* Slightly thinner dark purple border */
+}
+
+.form-container {
+  background: #c0c0e0; /* Slightly darker lavender background */
+  padding: 1.5rem;
+  border-radius: 15px;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: #4b0082;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid #4b0082;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #4b0082;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #4b0082;
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Add any additional styles as needed */

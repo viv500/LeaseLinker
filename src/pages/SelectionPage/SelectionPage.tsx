@@ -1,6 +1,9 @@
+// SelectionPage.tsx
+
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import WordMark from "../LandingPage/WordMark";
+import "./SelectionPage.css"; // Import the new CSS file
 
 const provinces = [
   "province",
@@ -39,51 +42,63 @@ const SelectionPage = () => {
           <WordMark />
         </nav>
       </div>
-      <div className="grow border border-red-400 w-full flex">
+      <div className="grow form-container">
         <form
           onSubmit={handleSubmit}
-          className="border border-blue-600 flex w-full items-center justify-center flex-col"
+          className="flex flex-col items-center justify-center"
         >
-          <input
-            type="text"
-            id="currentCity"
-            value={currentCity}
-            onChange={(e) => setCurrentCity(e.target.value)}
-            placeholder="city"
-          />
+          <div className="form-group">
+            <label htmlFor="currentCity">Your City:</label>
+            <input
+              type="text"
+              id="currentCity"
+              value={currentCity}
+              onChange={(e) => setCurrentCity(e.target.value)}
+              placeholder="City"
+            />
+          </div>
 
-          <select
-            id="currentProvince"
-            value={currentProvince}
-            onChange={(e) => setCurrentProvince(e.target.value)}
-          >
-            {provinces.map((province) => (
-              <option key={province} value={province}>
-                {province}
-              </option>
-            ))}
-          </select>
+          <div className="form-group">
+            <label htmlFor="currentProvince">Your Province:</label>
+            <select
+              id="currentProvince"
+              value={currentProvince}
+              onChange={(e) => setCurrentProvince(e.target.value)}
+            >
+              {provinces.map((province) => (
+                <option key={province} value={province}>
+                  {province}
+                </option>
+              ))}
+            </select>
+          </div>
 
-          <label htmlFor="newCity">Your Future City:</label>
-          <input
-            type="text"
-            id="newCity"
-            value={newCity}
-            onChange={(e) => setNewCity(e.target.value)}
-          />
+          <div className="form-group">
+            <label htmlFor="newCity">Your Future City:</label>
+            <input
+              type="text"
+              id="newCity"
+              value={newCity}
+              onChange={(e) => setNewCity(e.target.value)}
+              placeholder="City"
+            />
+          </div>
 
-          <label htmlFor="newProvince">Your Future Province:</label>
-          <select
-            id="newProvince"
-            value={newProvince}
-            onChange={(e) => setNewProvince(e.target.value)}
-          >
-            {provinces.map((province) => (
-              <option key={province} value={province}>
-                {province}
-              </option>
-            ))}
-          </select>
+          <div className="form-group">
+            <label htmlFor="newProvince">Your Future Province:</label>
+            <select
+              id="newProvince"
+              value={newProvince}
+              onChange={(e) => setNewProvince(e.target.value)}
+            >
+              {provinces.map((province) => (
+                <option key={province} value={province}>
+                  {province}
+                </option>
+              ))}
+            </select>
+          </div>
+
           <Link to="/listings">
             <button type="submit">Submit</button>
           </Link>
