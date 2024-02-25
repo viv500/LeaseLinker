@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./selection-page.css"; // Import the CSS file
+import { Link } from "react-router-dom";
 
 const provinces = [
   "Alberta",
@@ -82,8 +83,9 @@ const SelectionPage = () => {
             ))}
           </select>
         </div>
-
-        <button type="submit">Submit</button>
+        <Link to="/listings">
+          <button type="submit">Submit</button>
+        </Link>
       </form>
     </div>
   );

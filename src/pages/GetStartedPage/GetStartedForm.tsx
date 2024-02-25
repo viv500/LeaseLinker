@@ -4,7 +4,7 @@ import passwordIcon from "../../assets/icons/password.png";
 
 function GetStartedForm() {
   return (
-    <div className="border-2 ">
+    <div className="border-2 basis-96 grow">
       <form
         name="login"
         action="mailto:khaleedopeloyeru20@gmail.con"
