@@ -1,18 +1,18 @@
 /* styles.css */
 
-/* Lavender color */
-.lavender-bg {
-  background-color: #c7c1e2; /* Adjust the color code as needed */
+/* Background Gradient for Depth */
+body {
+  background: linear-gradient(to bottom, #e6e6fa 0%, #c0c0e0 100%);
 }
 
-/* Purple color */
+/* Existing Purple color */
 .purple-text {
-  color: #6a0572; /* Adjust the color code as needed */
+  color: #4b0082; /* Purple text color */
 }
 
-/* White color */
+/* Existing White color */
 .white-text {
-  color: #ffffff; /* Adjust the color code as needed */
+  color: #ffffff; /* White text color */
 }
 
 /* Styling for the form container */
@@ -20,11 +20,14 @@
   max-width: 24rem; /* Adjust the max-width as needed */
   margin: auto;
   padding: 1rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(to bottom, #e6e6fa 0%, #c0c0e0 100%); /* Lavender to purple gradient background */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 /* Styling for the form */
 form {
-  border: 2px solid #6a0572; /* Purple border */
+  border: 2px solid #4b0082; /* Purple border */
   padding: 1.5rem;
   border-radius: 0.5rem;
 }
@@ -33,14 +36,13 @@ form {
 h2 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
+  color: #4b0082; /* Purple text color for the heading */
 }
 
 /* Styling for the input container */
 .input-container {
   position: relative;
 }
-
-
 
 /* Styling for the remember and forgot section */
 .remember-and-forgot {
@@ -51,24 +53,34 @@ h2 {
 
 /* Styling for the login link */
 Link {
-  color: #6a0572; /* Purple color for links */
+  color: #4b0082; /* Purple text color for the link */
   text-decoration: none;
 }
 
-/* Styling for the login button */
 .login-button {
-  background-color: #6a0572; /* Purple background color */
+  background-color: #e6e6fa; /* Lavender background color for the button */
   color: #ffffff; /* White text color */
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 0.25rem;
   cursor: pointer;
+  transition: background-color 0.3s; /* Add transition for smooth color change on hover */
+}
+
+/* Hover effect for the login button */
+.login-button:hover {
+  background-color: #c0c0e0; /* Darker lavender on hover */
 }
 
 /* Styling for the register button */
 .register-button {
-  color: #6a0572; /* Purple text color */
+  color: #4b0082; /* Purple text color for the button */
   margin-top: 1rem;
+}
+/* Styling for the form container */
+.border {
+  background-color:whitesmoke; /* Solid cream color */
+  padding: 1.5rem; /* Add padding to maintain space inside the box */
 }
 
 /* Responsive styling for small screens */
@@ -77,3 +89,5 @@ Link {
     max-width: 100%;
   }
 }
+
+
