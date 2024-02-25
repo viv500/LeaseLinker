@@ -9,8 +9,8 @@ function Listing({
   price,
 }: ListingProps) {
   return (
-    <div className="border border-red-800 rounded-md min-h-lvh">
-      <div className="rounded-md border-blue-600 border">
+    <div className="rounded-md min-h-lvh">
+      <div className="rounded-md">
         <img src={imageSrc} />
       </div>
       <div>
