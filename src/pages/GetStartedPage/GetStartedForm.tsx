@@ -1,7 +1,4 @@
 import { Link } from "react-router-dom";
-// import emailIcon from "../../assets/icons/email.png";
-// import passwordIcon from "../../assets/icons/password.png";
-import "./GettingStartedForm.css";
 
 function GetStartedForm() {
   return (
@@ -47,7 +44,7 @@ function GetStartedForm() {
         />
 
         <Link to="/selection" className="purple-text">
-          <button className="bg-first-green p-4 text-white font-bold">
+          <button className="bg-first-green p-4 text-white font-bold rounded-md">
             Create Account
           </button>
         </Link>

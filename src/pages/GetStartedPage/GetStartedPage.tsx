@@ -4,7 +4,7 @@ import GetStartedNavBar from "./GetStartedNavBar";
 
 function GetStartedPage() {
   return (
-    <div className="relative flex min-h-lvh justify-center items-center flex-col">
+    <div className="flex min-h-lvh justify-center items-center flex-col">
       <GetStartedNavBar />
 
       <div className=" justify-center items-center gap-10 max-w-7xl flex p-4 grow ">
