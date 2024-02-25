@@ -4,7 +4,6 @@ import ErrorPage from "./pages/ErrorPage/ErrorPage";
 import GetStartedPage from "./pages/GetStartedPage/GetStartedPage";
 import ListingsPage from "./pages/ListingsPage/ListingsPage";
 import SelectionPage from "./pages/SelectionPage/SelectionPage";
-
 import "./styles/index.css";
 
 const router = createBrowserRouter([
