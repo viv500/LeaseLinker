@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import WordMark from "./WordMark";
 function NavBar() {
   return (
-    <div className="flex justify-center items-center w-full bg-black">
+    <div className="flex justify-center items-center w-full">
       <nav className="flex justify-between items-center max-w-7xl w-full p-4 max-sm:justify-center">
         <WordMark />
         <Link
