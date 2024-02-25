@@ -1,0 +1,79 @@
+/* styles.css */
+
+/* Lavender color */
+.lavender-bg {
+  background-color: #c7c1e2; /* Adjust the color code as needed */
+}
+
+/* Purple color */
+.purple-text {
+  color: #6a0572; /* Adjust the color code as needed */
+}
+
+/* White color */
+.white-text {
+  color: #ffffff; /* Adjust the color code as needed */
+}
+
+/* Styling for the form container */
+.form-container {
+  max-width: 24rem; /* Adjust the max-width as needed */
+  margin: auto;
+  padding: 1rem;
+}
+
+/* Styling for the form */
+form {
+  border: 2px solid #6a0572; /* Purple border */
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+/* Styling for the heading */
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Styling for the input container */
+.input-container {
+  position: relative;
+}
+
+
+
+/* Styling for the remember and forgot section */
+.remember-and-forgot {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+/* Styling for the login link */
+Link {
+  color: #6a0572; /* Purple color for links */
+  text-decoration: none;
+}
+
+/* Styling for the login button */
+.login-button {
+  background-color: #6a0572; /* Purple background color */
+  color: #ffffff; /* White text color */
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+/* Styling for the register button */
+.register-button {
+  color: #6a0572; /* Purple text color */
+  margin-top: 1rem;
+}
+
+/* Responsive styling for small screens */
+@media (max-width: 768px) {
+  .form-container {
+    max-width: 100%;
+  }
+}

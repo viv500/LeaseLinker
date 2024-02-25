@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import emailIcon from "../../assets/icons/email.png";
 import passwordIcon from "../../assets/icons/password.png";
+import "./GettingStartedForm.css";
 
 function GetStartedForm() {
   return (
@@ -9,9 +10,9 @@ function GetStartedForm() {
         name="login"
         action="mailto:khaleedopeloyeru20@gmail.con"
         method="post"
-        className="border border-red-900"
+        className="border lavender-bg"
       >
-        <h2>Sign Up</h2>
+        <h2 className="purple-text">Sign Up</h2>
         <div className="main-container">
           <label htmlFor="email" className="container">
             Email
@@ -46,7 +47,7 @@ function GetStartedForm() {
           </label>
           <a href="#">Forgot Password?</a>
         </div>
-        <Link to="/selection">login</Link>
+        <Link to="/selection" className="purple-text">login</Link>
         {/* <input type="submit" value="Log in" className="login-button" /> */}
         <p className="register-button">
           Don't have an account? <a href="#">Register</a>
