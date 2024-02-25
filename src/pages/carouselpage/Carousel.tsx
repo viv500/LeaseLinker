@@ -19,20 +19,20 @@ export const Carousel = () => {
       amenities: "Pool, Gym, Garage",
     },
     {
-      title: "house2",
-      imageSrc: house2,
-      price: 200000,
-      noOfBedrooms: 4,
-      noOfBathrooms: 3,
-      amenities: "Garden, Garage",
-    },
-    {
-      title: "house2",
-      imageSrc: house3,
+      title: "house1",
+      icon: house1,
       price: 150000,
       noOfBedrooms: 2,
       noOfBathrooms: 1,
-      amenities: "Pool, Gym",
+      amenities: "Pool, Gym, Garage",
+    },
+    {
+      title: "house1",
+      icon: house1,
+      price: 150000,
+      noOfBedrooms: 2,
+      noOfBathrooms: 1,
+      amenities: "Pool, Gym, Garage",
     },
   ];
   const updateIndex = (newIndex: number) => {

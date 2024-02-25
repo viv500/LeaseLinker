@@ -1,4 +1,3 @@
-import React from "react";
 import type { ListingProps } from "../../types/types";
 function Listing({
   amenities,

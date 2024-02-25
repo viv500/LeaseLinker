@@ -5,7 +5,4 @@ type ListingProps = {
   noOfBathrooms: number;
   amenities: string;
 };
-type CarouselItemProps = {
-  
-}
 export type { ListingProps };
