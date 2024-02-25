@@ -9,7 +9,7 @@ function GetStartedForm() {
         name="login"
         action="mailto:khaleedopeloyeru20@gmail.con"
         method="post"
-        className="get-started-form"
+        className="border border-red-900"
       >
         <h2>Sign Up</h2>
         <div className="main-container">

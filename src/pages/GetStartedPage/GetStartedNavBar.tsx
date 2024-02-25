@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import WordMark from "./WordMark";
-function NavBar() {
+import WordMark from "../../pages/LandingPage/WordMark";
+function GetStartedNavBar() {
   return (
     <div className="flex justify-center items-center w-full bg-[#E6E6FA]">
       <nav className="flex justify-between items-center max-w-7xl w-full p-4 max-sm:justify-center">
@@ -18,4 +18,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default GetStartedNavBar;
