@@ -1,3 +1,5 @@
+import Cancel from "../../assets/icons/Cancel";
+import Heart from "../../assets/icons/Heart";
 import type { ListingProps } from "../../types/types";
 function Listing({
   amenities,
@@ -7,7 +9,7 @@ function Listing({
   price,
 }: ListingProps) {
   return (
-    <div className="border border-red-800 rounded-md">
+    <div className="border border-red-800 rounded-md min-h-lvh">
       <div className="rounded-md border-blue-600 border">
         <img src={imageSrc} />
       </div>
@@ -19,6 +21,10 @@ function Listing({
       <div>{amenities}</div>
       <div>
         <p>{price}</p>
+      </div>
+      <div className="flex">
+        <Cancel />
+        <Heart />
       </div>
     </div>
   );

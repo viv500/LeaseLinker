@@ -44,6 +44,7 @@ function ListingsPage() {
           ({ imageSrc, price, noOfBedrooms, noOfBathrooms, amenities }) => {
             return (
               <Listing
+              // location={}
                 imageSrc={imageSrc}
                 price={price}
                 noOfBedrooms={noOfBedrooms}
